@@ -90,14 +90,9 @@ header nav ul li a:hover {
 }
 
 /* -------  Join Form ------- */
-form select{
-  margin-bottom: 10px;
-  width: 150px;
-}
-
-form input {
+form select, form input {
   margin-bottom: 20px;
-  width: 200px;
+  width: 150px;
 }
 
 form {
@@ -149,6 +144,7 @@ footer p {
 
   header {
     display: flex;
+    padding: 0;
     justify-content: space-between;
   }
   
